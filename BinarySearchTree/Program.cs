@@ -19,4 +19,4 @@ bs1.Insert(63);
 bs1.Insert(67);
 
 bs1.Display(bs1);
-bs1.GetSize(bs1);
+

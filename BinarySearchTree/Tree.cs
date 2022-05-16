@@ -73,13 +73,5 @@ namespace BinarySearchTree
             Console.WriteLine(this.NodeData.ToString());
         }
 
-
-        public void GetSize(Tree<T> binarytree)
-        {
-            //Display(binarytree);
-            Console.WriteLine("Size" + " " + (1 + this.leftCount + this.rightCount));
-        }
-
-
-    }
+               }
 }
