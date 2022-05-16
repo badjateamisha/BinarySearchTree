@@ -39,23 +39,7 @@ namespace BinarySearchTree
             }
         }
 
-        /*public void Display()
-        {
-            if (this.LeftTree != null)
-            {
-                leftCount++;
-                this.LeftTree.Display();
-
-            }
-            Console.WriteLine(this.NodeData.ToString());
-            if (this.RightTree != null)
-            {
-                this.rightCount++;
-                this.RightTree.Display();
-            }
-        }*/
-
-        public void Display(Tree<T> binarytree)
+              public void Display(Tree<T> binarytree)
         {
             if (this.LeftTree != null)
             {
@@ -72,14 +56,11 @@ namespace BinarySearchTree
 
             Console.WriteLine(this.NodeData.ToString());
         }
-
-
         public void GetSize(Tree<T> binarytree)
         {
             //Display(binarytree);
             Console.WriteLine("Size" + " " + (1 + this.leftCount + this.rightCount));
         }
-
 
     }
 }
